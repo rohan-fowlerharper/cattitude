@@ -1,0 +1,52 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.cat--buttons {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 10px;
+}
+
+body {
+  background-color: #FFCCCC;
+  font-family: 'Roboto', cursive;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Spirax', cursive;
+  margin: 1rem 0;
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+.list-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.list-item {
+  margin: 1rem 0;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 1.2rem;
+}

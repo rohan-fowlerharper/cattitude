@@ -1,7 +1,10 @@
-<h2>{{cat.name}}</h2>
-<h3>{{cat.colour}}</h3>
+<img width="350px" height="350px" src="/cat.png" alt="placeholder cat avatar">
+<h2><b>Name: </b>{{cat.name}}</h2>
+<h3><b>Colour: </b>{{cat.colour}}</h3>
 
-<a href="/cats/{{cat.id}}/edit">Edit</a>
-<form action="/cats/{{cat.id}}/delete" method="post">
-  <button type="submit">Delete</button>
-</form>
+<div class="cat--buttons">
+  <a href="/cats/{{cat.id}}/edit">Edit</a>
+  <form action="/cats/{{cat.id}}/delete" method="post">
+    <button type="submit">Delete</button>
+  </form>
+</div>
