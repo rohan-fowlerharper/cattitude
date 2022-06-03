@@ -1,0 +1,12 @@
+<h2>Cats</h2>
+<ul>
+{{#each cats as | cat | }}
+  <li>
+    <h3>{{cat.name}}</h3>
+    <p>{{cat.name}} is a {{cat.colour}} cat</p>
+    <a href="/cats/{{cat.id}}">see {{cat.name}}'s profile</a>
+  </li>
+{{/each}}
+</ul>
+
+<a href="/cats/add-cat">Add Cat</a>

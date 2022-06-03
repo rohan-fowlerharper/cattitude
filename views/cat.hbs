@@ -1,0 +1,7 @@
+<h2>{{cat.name}}</h2>
+<h3>{{cat.colour}}</h3>
+
+<a href="/cats/{{cat.id}}/edit">Edit</a>
+<form action="/cats/{{cat.id}}/delete" method="post">
+  <button type="submit">Delete</button>
+</form>
